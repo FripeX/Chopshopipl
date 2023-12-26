@@ -1,19 +1,3 @@
--- fxmanifest.lua:
---[[
-fx_version 'cerulean'
-game 'gta5'
-lua54 'yes'
- 
-client_script 'client.lua'
-]]--
- 
--- Necessary:
--- Server Config: set sv_enforceGameBuild 3095
--- Resource FxManifest: lua54 'yes'
--- FiveM Server Artifacts: 7255+ | https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/
--- FiveM Client: Canary
- 
--- client.lua:
 local ColorDic = { ['default'] = 0, ['white'] = 1, ['red'] = 2, ['blue'] = 3,['orange'] = 4, ['yellow'] = 5, ['green'] = 6,['pink'] = 7, ['turquoise'] = 8, ['gray'] = 9, ['black'] = 10  }
 local EntitySets = {
         ["m23_2_dlc_int_salvage"] = {
