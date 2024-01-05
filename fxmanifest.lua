@@ -1,5 +1,15 @@
 fx_version 'cerulean'
-game 'gta5'
-lua54 'yes'
- 
-client_script 'main.lua'
+games { 'gta5' }
+
+shared_scripts {
+    'Config.lua'
+}
+
+client_scripts {
+	"main.lua"
+}
+
+dependencies {
+    '/server:7257',
+    '/gameBuild:3095',
+}
